@@ -1,3 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+/*  border: 1px solid white;*/
+}
+
 /*
  * Globals
  */
@@ -106,18 +112,16 @@ body {
 
 
 /*
- * Cover
+ * Menu
  */
-
-.cover {
-  padding: 0 20px;
-}
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
+.menu {
+  margin-left:35%;
+  margin-right:35%;
 }
 
-
+table {
+ text-align:center;
+}
 /*
  * Footer
  */
