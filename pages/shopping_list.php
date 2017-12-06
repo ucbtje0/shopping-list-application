@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="./bootstrap/docs/favicon.ico">
+    <link rel="icon" href="../bootstrap/docs/favicon.ico">
 
     <title>Shopping Appication</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="./bootstrap/docs/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap/docs/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="stylesheet.css" rel="stylesheet">
+    <link href="../stylesheet.css" rel="stylesheet">
   </head>
 
   <body>
@@ -38,7 +38,7 @@
     </div>
     <div class="navbar navbar-inverse bg-inverse">
       <div class="container d-flex justify-content-between">
-        <a href="#" class="navbar-brand">Shopping list application</a>
+        <a href="../index.php" class="navbar-brand">Shopping list application</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,7 +50,7 @@
         <h1 class="jumbotron-heading">Shopping list generator</h1>
         <p class="lead text-muted">Select meals from the menu below then click to generate a shopping list.</p>
         <p>
-          <a href="./pages/shopping_list.php" class="btn btn-primary">Generate Shopping List</a>
+          <a href="#" class="btn btn-primary">Generate Shopping List</a>
         </p>
       </div>
     </section>
@@ -79,14 +79,14 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="./bootstrap/docs/assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="./bootstrap/docs/assets/js/vendor/holder.min.js"></script>
+    <script src="../bootstrap/docs/assets/js/vendor/holder.min.js"></script>
     <script>
       $(function () {
         Holder.addTheme("thumb", { background: "#55595c", foreground: "#eceeef", text: "Thumbnail" });
       });
     </script>
-    <script src="./bootstrap/docs/dist/js/bootstrap.min.js"></script>
+    <script src="../bootstrap/docs/dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
