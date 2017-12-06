@@ -23,7 +23,7 @@
         <div class="row">
           <div class="col-sm-8 py-4">
             <h4 class="text-white">About</h4>
-            <p class="text-muted">This is an initial test of styling add to test the concept of using selectable icons labeled with meals from a sql database.</p>
+            <p class="text-muted">Description of the application.</p>
           </div>
           <div class="col-sm-4 py-4">
             <h4 class="text-white">Contact</h4>
