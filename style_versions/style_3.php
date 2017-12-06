@@ -13,7 +13,7 @@
     <link href="./bootstrap/docs/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="stylesheet.css" rel="stylesheet">
+    <link href="./bootstrap/docs/examples/album/album.css" rel="stylesheet">
   </head>
 
   <body>
@@ -48,19 +48,59 @@
     <section class="jumbotron text-center">
       <div class="container">
         <h1 class="jumbotron-heading">Shopping list generator</h1>
-        <p class="lead text-muted">Select meals from the menu below then click to generate a shopping list.</p>
+        <p class="lead text-muted">Select meals from the menu to generate a shopping list.</p>
         <p>
-          <a href="#" class="btn btn-primary">Generate Shopping List</a>
+          <a href="#" class="btn btn-primary">Sign In</a>
+          <a href="#" class="btn btn-secondary">Log In</a>
         </p>
       </div>
     </section>
 
     <div class="album text-muted">
-		<div class="menu">
-	      <ul>
-            <?php include('php/menu.php') ?>                
-          </ul>
+      <div class="container">
+
+        <div class="row">
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
         </div>
+
+      </div>
     </div>
 
     <footer class="text-muted">
