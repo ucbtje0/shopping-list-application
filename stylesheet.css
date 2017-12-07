@@ -101,6 +101,22 @@ label img {
   margin-bottom: 20px;
 }
 
+.shopping_list {
+  text-align: center;
+  position: relative;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.shopping_list table{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.shopping_list th{
+  text-align: center;
+}
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;

@@ -50,16 +50,24 @@
         <h1 class="jumbotron-heading">Shopping list generator</h1>
         <p class="lead text-muted">Select meals from the menu below then click to generate a shopping list.</p>
         <p>
-          <a href="./pages/shopping_list.php" class="btn btn-primary">Generate Shopping List</a>
+		
+<!--         <a href="./pages/shopping_list.php" class="btn btn-primary">Generate Shopping List</a> -->
         </p>
       </div>
     </section>
 
     <div class="album text-muted">
 		<div class="menu">
-	      <ul>
-            <?php include('php/menu.php') ?>                
-          </ul>
+		  <form action="#" method="post">
+	        <ul>
+              <?php include('php/menu.php') ?> </br>
+              <input type="submit" name="submit" value="Submit"/>       
+            </ul>  
+          </form>
+          <?php include('php/output_checklist.php') ?>
+          <div class="shopping_list">
+            <?php include('php/generate_shopping_list.php');?>
+          </div>
         </div>
     </div>
 
