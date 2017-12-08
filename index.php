@@ -51,7 +51,7 @@
         <p class="lead text-muted">Select meals from the menu below then click to generate a shopping list.</p>
         <p>
 
-         <a href="./pages/shopping_list.php" class="btn btn-primary">Generate Shopping List</a>
+ <!--        <a href="./pages/shopping_list.php" class="btn btn-primary">Generate Shopping List</a>-->
         </p>
       </div>
     </section>

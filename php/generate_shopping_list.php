@@ -3,24 +3,14 @@
 if(isset($_POST['submit'])){
     
 
-    $servername = "localhost";
-    $username = "root";
-    $password = "AuRe/;an";
-    $dbname = "Meals";
-
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
+    include('php/connection.php');
 
     $checklist = $_POST['check_list'];
     foreach($checklist as $meal) {
 //        echo $meal;
     }
 
-    $sql = "SELECT * FROM Ingredients WHERE meal IN(". implode(',',$checklist).")";
+    $sql = "SELECT * FROM Ingredients WHERE meal IN(". implode($checklist).")";
      
     $result = $conn->query($sql);
 
