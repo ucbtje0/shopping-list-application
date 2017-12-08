@@ -30,7 +30,6 @@ body {
 }
 
 .album {
-  min-height: 50rem; /* Can be removed; just added for demo purposes */
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #f7f7f7;
@@ -48,7 +47,7 @@ li {
   margin: 10px;
 }
 
-input[type="checkbox"] {
+.menu input[type="checkbox"] {
   display: none;
 }
 
@@ -99,13 +98,6 @@ label img {
   font-size: 100%;
   margin: auto;
   margin-bottom: 20px;
-}
-
-.shopping_list {
-  text-align: center;
-  position: relative;
-  margin: auto;
-  border: 1px solid black;
 }
 
 .shopping_list table{

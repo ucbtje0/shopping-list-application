@@ -45,22 +45,8 @@
       </div>
     </div>
 
-    <section class="jumbotron text-center">
-      <div class="container">
-        <h1 class="jumbotron-heading">Shopping list generator</h1>
-        <p class="lead text-muted">Select meals from the menu below then click to generate a shopping list.</p>
-        <p>
-          <a href="#" class="btn btn-primary">Generate Shopping List</a>
-        </p>
-      </div>
-    </section>
-
     <div class="album text-muted">
-		<div class="menu">
-	      <ul>
-            <?php include('php/menu.php') ?>                
-          </ul>
-        </div>
+        <?php include('php/generate_shopping_list.php') ?>
     </div>
 
     <footer class="text-muted">
