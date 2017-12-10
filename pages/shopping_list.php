@@ -76,5 +76,6 @@
     <script src="../bootstrap/docs/dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="../js/toggle_highlight.js"></script>
   </body>
 </html>

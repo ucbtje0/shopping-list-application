@@ -22,7 +22,7 @@ if ($result->num_rows > 0) {
 // output data of each row
     while($row = $result->fetch_assoc()) {
       echo "<tr>";
-      echo "<td><input type=\"checkbox\"/></td>";
+      echo "<td><input type=\"checkbox\"  onclick = \"toggle_highlight(this)\"></td>";
       echo "<td>".$row["ingredient"]."</td>";
       echo "<td>".$row["quantity"]."</td>";
       echo "<td>".$row["units"]."</td>";
