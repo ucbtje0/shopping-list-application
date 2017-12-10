@@ -58,15 +58,12 @@
 
     <div class="album text-muted">
 		  <div class="menu">
-		    <form action="#" method="post">
+		    <form action="pages/shopping_list.php" method="post">
 	        <ul>
               <?php include('php/menu.php') ?> </br>
               <input type="submit" name="submit" value="Submit"/>       
           </ul>  
         </form>
-      </div>
-      <div class="shopping_list">
-            <?php include('php/generate_shopping_list.php');?>
       </div>
     </div>
 

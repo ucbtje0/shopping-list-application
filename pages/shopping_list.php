@@ -46,7 +46,9 @@
     </div>
 
     <div class="album text-muted">
-        <?php include('php/generate_shopping_list.php') ?>
+        <div class="shopping_list">
+            <?php include('../php/generate_shopping_list.php');?>
+      </div>
     </div>
 
     <footer class="text-muted">
