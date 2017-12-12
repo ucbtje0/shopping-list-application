@@ -12,7 +12,7 @@ body {
 
 .jumbotron {
   padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
   margin-bottom: 0;
   background-color: #fff;
 }
@@ -32,9 +32,17 @@ body {
 .album {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 
+.qty_spinner {
+ padding: 20px;
+ text-align: center;
+}
+
+.qty_spinner input[type="number"] {
+  text-align: center;
+}
 
 ul {
   list-style-type: none;
@@ -83,7 +91,7 @@ label img {
 }
 
 :checked + label:before {
-  content: "✓";
+  content: "\2713";
   background-color: grey;
   transform: scale(1);
 }
@@ -103,10 +111,31 @@ label img {
 .shopping_list table{
   margin: 0 auto;
   width: 50%;
+  border: 1px solid white;
+  background-color: #f7f7f7;
 }
 
-.shopping_list th{
+.shopping_list th {
   text-align: center;
+  font-size: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.shopping_list td {
+  border-bottom: 1px solid #ddd;
+}
+
+.margin {
+ border-right: 1px solid red;
+} 
+
+/*This is the colour of the shopping list item when hovered over*/
+.shopping_list tr:hover {
+  background-color: #bcb3cc;
+}
+/*This is the colour of the shopping list item when checked*/
+.checked {
+    background-color: #bcb3cc;
 }
 
 footer {
@@ -116,8 +145,4 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
-}
-
-.checked {
-    background-color: purple;
 }

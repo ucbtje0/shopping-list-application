@@ -5,3 +5,7 @@ $(document).ready(function () {
         } else $(this).closest('tr').removeClass("checked");
     });
 });
+
+
+
+

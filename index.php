@@ -17,7 +17,6 @@
   </head>
 
   <body>
-
     <div class="collapse bg-inverse" id="navbarHeader">
       <div class="container">
         <div class="row">
@@ -48,17 +47,16 @@
     <section class="jumbotron text-center">
       <div class="container">
         <h1 class="jumbotron-heading">Shopping list generator</h1>
-        <p class="lead text-muted">Select meals from the menu below then click to generate a shopping list.</p>
-        <p>
-
- <!--        <a href="./pages/shopping_list.php" class="btn btn-primary">Generate Shopping List</a>-->
-        </p>
+        <p class="lead text-muted">Select the number of servings per meal and dishes required from the menu below. Then click submit to generate a shopping list.</p>        
       </div>
     </section>
 
     <div class="album text-muted">
 		  <div class="menu">
 		    <form action="pages/shopping_list.php" method="post">
+          <div class="qty_spinner">
+            <input type="number" name="number" min="1" max="20" value="1"/>
+          </div>
 	        <ul>
               <?php include('php/menu.php') ?> </br>
               <input type="submit" name="submit" value="Submit"/>       
@@ -92,5 +90,7 @@
     <script src="./bootstrap/docs/dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Custom Javascript File -->
+    <script type="text/javascript" src="../js/main.js"></script>
   </body>
 </html>

@@ -47,7 +47,13 @@
 
     <div class="album text-muted">
         <div class="shopping_list">
+          <table border=1 cellpadding="5">
+            <tr>
+              <th class="margin"></th>
+              <th>Shopping List</th>
+            </tr>
             <?php include('../php/generate_shopping_list.php');?>
+          </table>
       </div>
     </div>
 
@@ -76,6 +82,6 @@
     <script src="../bootstrap/docs/dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script type="text/javascript" src="../js/toggle_highlight.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
   </body>
 </html>
