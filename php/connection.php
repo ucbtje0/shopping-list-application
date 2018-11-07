@@ -1,7 +1,7 @@
 <?php
     $servername = "localhost";
     $username = "root";
-    $password = "AuRe/;an";
+    $password = "sa";
     $dbname = "shopping-list-application";
 
     // Create connection
